@@ -26,11 +26,6 @@ namespace MyDicrionary
                 myDictionary.Add(word, translationSet);
             }
 
-            /*word = Console.ReadLine();
-            translation = Console.ReadLine();
-            translationSet = new HashSet<string>(translation.Split(','));
-            myDictionary.Add(word, translationSet);*/
-
             Console.WriteLine(myDictionary.ToString());
         }
     }
